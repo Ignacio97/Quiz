@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" style="-fx-background-color: #45b4bc;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.gameDivision">
+   <children>
+      <AnchorPane prefHeight="140.0" prefWidth="1280.0" style="-fx-background-color: #00C4FF;">
+         <children>
+            <Label fx:id="maintittlelabel" alignment="CENTER" layoutX="325.0" layoutY="14.0" prefHeight="117.0" prefWidth="665.0" text="DIVISION : 0-10" textFill="WHITE">
+               <font>
+                  <Font name="Noteworthy Light" size="70.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="140.0" prefHeight="83.0" prefWidth="1280.0" style="-fx-background-color: #278a94;">
+         <children>
+            <Label fx:id="indicelabel" alignment="CENTER" contentDisplay="CENTER" layoutX="379.0" prefHeight="83.0" prefWidth="473.0" text="Pregunta 1 de 10" textFill="#b4fdfb">
+               <font>
+                  <Font name="Noteworthy Light" size="50.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="223.0" prefHeight="281.0" prefWidth="1280.0" style="-fx-background-color: #339da6;">
+         <children>
+            <Label fx:id="sumalabel" alignment="CENTER" layoutX="176.0" layoutY="58.0" prefHeight="159.0" prefWidth="460.0" text="26 - 50 =" textFill="WHITE">
+               <font>
+                  <Font name="Noteworthy Light" size="95.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="answertextfield" alignment="CENTER" layoutX="666.0" layoutY="61.0" prefHeight="159.0" prefWidth="147.0" promptText="?" style="-fx-background-color: #ffffffff;">
+               <font>
+                  <Font name="Noteworthy Light" size="67.0" />
+               </font>
+            </JFXTextField>
+            <AnchorPane layoutX="930.0" layoutY="-2.0" prefHeight="59.0" prefWidth="350.0" style="-fx-background-color: #259da8259da8;">
+               <children>
+                  <Label fx:id="indicelabel1" alignment="CENTER" layoutX="46.0" layoutY="-2.0" prefHeight="59.0" prefWidth="194.0" text="TIEMPO" textFill="#b4fdfb">
+                     <font>
+                        <Font name="Noteworthy Light" size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label fx:id="timelabel" alignment="CENTER" contentDisplay="CENTER" layoutX="978.0" layoutY="73.0" prefHeight="149.0" prefWidth="198.0" text="30" textFill="WHITE">
+               <font>
+                  <Font name="Noteworthy Light" size="96.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="clearbutton" buttonType="RAISED" layoutX="255.0" layoutY="594.0" prefHeight="86.0" prefWidth="245.0" style="-fx-background-color: #cfe3e4#cfe3e4 #cfe3e4#cfe3e4;" text="BORRAR!" textAlignment="CENTER" textFill="#00b9c0">
+         <font>
+            <Font name="Bodoni 72 Book" size="45.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="SUBMITBUTTON" buttonType="RAISED" layoutX="655.0" layoutY="558.0" prefHeight="135.0" prefWidth="485.0" style="-fx-background-color: #cfe3e4#cfe3e4 #cfe3e4#cfe3e4;" text="CONTESTAR" textAlignment="CENTER" textFill="#00b9c0">
+         <font>
+            <Font name="Bodoni 72 Book" size="70.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

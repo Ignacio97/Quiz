@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1280.0" style="-fx-background-color: #45b4bc;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.ResultadosController">
+   <children>
+      <AnchorPane prefHeight="140.0" prefWidth="1280.0" style="-fx-background-color: #00C4FF;">
+         <children>
+            <Label fx:id="maintittlelabel" alignment="CENTER" layoutX="413.0" layoutY="14.0" prefHeight="117.0" prefWidth="477.0" text="RESULTADOS" textFill="WHITE">
+               <font>
+                  <Font name="Noteworthy Light" size="70.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="140.0" prefHeight="83.0" prefWidth="1280.0" style="-fx-background-color: #278a94;">
+         <children>
+            <Label fx:id="indicelabel" alignment="CENTER" contentDisplay="CENTER" layoutX="90.0" prefHeight="83.0" prefWidth="1122.0" text="JUEGO + RANGO SELECTED" textFill="#b4fdfb">
+               <font>
+                  <Font name="Noteworthy Light" size="50.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="223.0" prefHeight="327.0" prefWidth="1280.0" style="-fx-background-color: #339da6;">
+         <children>
+            <Label fx:id="label" alignment="CENTER" layoutX="84.0" layoutY="11.0" prefHeight="117.0" prefWidth="477.0" text="ACIERTOS" textFill="WHITE">
+               <font>
+                  <Font name="Noteworthy Light" size="70.0" />
+               </font>
+            </Label>
+            <Label fx:id="label1" alignment="CENTER" layoutX="728.0" layoutY="16.0" prefHeight="117.0" prefWidth="477.0" text="ERRORES" textFill="WHITE">
+               <font>
+                  <Font name="Noteworthy Light" size="70.0" />
+               </font>
+            </Label>
+            <Label fx:id="aciertoslabel" alignment="CENTER" layoutX="164.0" layoutY="129.0" prefHeight="187.0" prefWidth="295.0" text="0" textFill="WHITE">
+               <font>
+                  <Font name="Noteworthy Light" size="70.0" />
+               </font>
+            </Label>
+            <Label fx:id="erroreslabel" alignment="CENTER" layoutX="833.0" layoutY="130.0" prefHeight="187.0" prefWidth="295.0" text="0" textFill="WHITE">
+               <font>
+                  <Font name="Noteworthy Light" size="70.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="homeButton" buttonType="RAISED" layoutX="349.0" layoutY="592.0" prefHeight="135.0" prefWidth="663.0" style="-fx-background-color: #cfe3e4#cfe3e4 #cfe3e4#cfe3e4;" text="JUGAR DE NUEVO" textAlignment="CENTER" textFill="#00b9c0">
+         <font>
+            <Font name="Bodoni 72 Book" size="70.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
